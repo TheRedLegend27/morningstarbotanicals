@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Morning Star Botanicals - Handmade Natural Soaps crafted with care using botanical ingredients">
+    <!-- Mobile optimization meta tags -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#4A7C7E">
+    <title>Morning Star Botanicals - Handmade Natural Soaps</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <div class="nav__logo">
+                <a href="index.html" aria-label="Morning Star Botanicals - Go to homepage">
+                    <img src="images/logo/morning-star-botanicals-logo.svg" alt="Morning Star Botanicals Logo" class="logo">
+                </a>
+            </div>
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li class="nav__item" role="none">
+                    <a href="index.html" class="nav__link nav__link--active" role="menuitem" aria-current="page">Home</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="products.html" class="nav__link" role="menuitem">Products</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="about.html" class="nav__link" role="menuitem">About</a>
+                </li>
+            </ul>
+            <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu" aria-haspopup="true">
+                <span class="nav__toggle-line" aria-hidden="true"></span>
+                <span class="nav__toggle-line" aria-hidden="true"></span>
+                <span class="nav__toggle-line" aria-hidden="true"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main" role="main" id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__logo">
+                        <img src="images/logo/morning-star-botanicals-logo.svg" alt="Morning Star Botanicals Logo" class="hero__logo-img" aria-hidden="true">
+                    </div>
+                    <h1 class="hero__title" id="hero-title">Handcrafted Natural Soaps</h1>
+                    <p class="hero__subtitle">Discover the pure essence of botanical ingredients in every bar</p>
+                    <a href="products.html" class="btn btn-primary hero__cta" aria-describedby="hero-title">Shop Our Soaps</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products" aria-labelledby="featured-title">
+            <div class="container">
+                <h2 class="section__title text-center" id="featured-title">Featured Products</h2>
+                <div class="products-grid" id="featured-products-grid" role="region" aria-label="Featured handmade soap products">
+                    <!-- Product cards will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+
+        <section class="brand-story" aria-labelledby="story-title">
+            <div class="container">
+                <div class="story__content">
+                    <div class="story__icon" aria-hidden="true">
+                        <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Decorative botanical icon">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="#4A7C7E" stroke-width="2"/>
+                            <path d="M20 30 Q30 20 40 30 Q30 40 20 30" fill="#D4AF37" opacity="0.7"/>
+                            <circle cx="30" cy="30" r="3" fill="#4A7C7E"/>
+                        </svg>
+                    </div>
+                    <h2 class="section__title" id="story-title">Our Story</h2>
+                    <p class="story__text">Every bar of soap tells a story of natural ingredients, traditional craftsmanship, and a passion for creating products that nourish both body and soul.</p>
+                    <p class="story__subtext">From our kitchen to your home, each soap is carefully crafted with love, using only the finest botanical ingredients sourced from nature's garden.</p>
+                    <a href="about.html" class="btn btn-secondary story__cta" aria-describedby="story-title">Discover Our Journey</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 class="footer__title">Morning Star Botanicals</h3>
+                    <p class="footer__text">Handcrafted natural soaps made with love and botanical ingredients</p>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__subtitle">Contact</h4>
+                    <p class="footer__text">Email: <a href="mailto:info@morningstar-botanicals.com" aria-label="Send email to Morning Star Botanicals">info@morningstar-botanicals.com</a></p>
+                    <p class="footer__text">Phone: <a href="tel:+15551234567" aria-label="Call Morning Star Botanicals">(555) 123-4567</a></p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2024 Morning Star Botanicals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.min.js"></script>
+</body>
+</html>
